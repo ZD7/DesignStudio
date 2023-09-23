@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <div class="container container-header">
+        <div class="container-header-footer container-header">
             <div class="logo">
                 IC "Repair Design Project"
             </div>
@@ -24,7 +24,7 @@
                     <li class="header-navigation-item"><a href="#" class="header-navigation-link">CONTACTS</a></li>
                 </ul>
             </nav>
-            <div class="header-navigation-item number"><a href="#" class="header-navigation-link number-link">+7 (928) 768-32-39</a></div>
+            <div class="header-navigation-item number"><a href="tel:8(928)768-32-39" class="header-navigation-link number-link">+7 (928) 768-32-39</a></div>
             <button class="button button-header">Request a call</button>
         </div>
     </header>
@@ -49,9 +49,14 @@
 
         <section class="block2">
             <div class="container2">
+                <div class="header-complete-projects">
+                    <div class="title-complete-projects">Completed projects</div>
+                    <div class="content-complete-projects">Only a small part of the work performed by our company is 
+                        presented on the site. For 14 years on in the construction market we have made 
+                        happy more than 1000 families
+                    </div>
+                </div>
                 <div class="container2-1">
-                    <h1 class="title-block2">Completed<br>projects</h1>
-                    <p class="content-block2">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
                     <div class="table-block2">
                         <div class="title-block2-2">City:</div>
                         <div class="title-block2-2">apartment area:</div>
@@ -80,23 +85,26 @@
                             <path d="M 12.59 5 l -7.59 6.64 l 7.59 6.64 m -7.59 -6.64 l 40.51 0"/>
                         </svg>
                     </div>
-                     
                 </div>
-                <nav>
-                    <ul class="header-navigation nav-complete-projects">
-                        <li><a href="#" class="header-navigation-link">Rostov-on-Don, Admiral</a></li>
-                        <li><a href="#" class="header-navigation-link">Sochi Thieves</a></li>
-                        <li><a href="#" class="header-navigation-link">Rostov-on-Don Patriotic</a></li>
-                    </ul>
-                    <img src="./images/block2.jpg" alt="image-block2">
-                </nav>
+                <div class="complete-projects">
+                    <nav>
+                        <ul class="header-navigation nav-complete-projects">
+                            <li><a href="#" class="header-navigation-link">Rostov-on-Don, Admiral</a></li>
+                            <li><a href="#" class="header-navigation-link">Sochi Thieves</a></li>
+                            <li><a href="#" class="header-navigation-link">Rostov-on-Don Patriotic</a></li>
+                        </ul>
+                    </nav>
+                    <!-- <div> -->
+                        <img class="photo-complete-projects" src="./images/block2.jpg" alt="photo-complete-projects">
+                    <!-- </div> -->
+                </div>
             </div>
 
             <div class="online-control">
                 <div class="title-online-control">online control</div>
                 <div class="icon-online-control">
                     <div class="line-icon"></div>
-                    <img class="" src="./svg/online-control.svg" alt="online-control">
+                    <img src="./svg/online-control.svg" alt="online-control">
                     <div class="line-icon"></div>
                 </div>
             </div>
@@ -107,6 +115,7 @@
                 <div class="container3_1">
                     <div class="hero-container video">
                         <div class="image-video">
+                            <img class="container-video" src="./images/image-video.jpg" alt="image-play">
                             <div class="button-play">
                                 <img src="./images/Polygon.svg" alt="image-play">
                             </div>
@@ -115,39 +124,41 @@
                     </div>
                     <hr color="#E3B873" width="55px" size="1.54px">
                     <p class="content-under-video"> 
-                        At each facility, a camera is installed that broadcasts the progress of work on the<br>clock. 
-                        At any time, you can go to our website and monitor the progress of work in<br>your apartment. 
-                        You can watch the live broadcast from one of our facilities!<br>Leave a request below and you 
+                        At each facility, a camera is installed that broadcasts the progress of work on the clock. 
+                        At any time, you can go to our website and monitor the progress of work in your apartment. 
+                        You can watch the live broadcast from one of our facilities! Leave a request below and you 
                         will receive a link to the broadcast.
                     </p>
                 </div>
                 <div class="container3_2">
                     <div class="table-block3">
-                        <label for="text">Name</label>
-                        <input type="text" placeholder="What is your name:">
+                        <div>
+                            <label for="text">Name</label>
+                            <input type="text" placeholder="What is your name:">
+                        </div>
+                        <div>
+                            <label for="text">Phone</label>
+                            <input type="text" placeholder="Your phone number:">
+                        </div>
                     </div>
-                    <div class="table-block3">
-                        <label for="text">Phone</label>
-                        <input type="text" placeholder="Your phone number:">
-                    </div>
-                    <button class="button">SUBMIT</button>
-                </div>
+                    <button class="button button-subscribe">SUBMIT</button>
 
-                <label class="label">
-                    <input type="checkbox" class="checkbox">
-                    <span class="fake"></span>
-                    <span class="text">I agree to the processing of personal data</span>
-                </label>
-
-                <div class="type-repair">
-                    <p>types of repair</p>
-                    <img src="./svg/typeRepair.svg">
+                    <label class="label">
+                        <input type="checkbox" class="checkbox">
+                        <span class="fake"></span>
+                        <span class="text">I agree to the processing of personal data</span>
+                    </label>
                 </div>
             </div>
         </section>
         <section class="block4">
+            <div class="type-repair">
+                <div>types of repair</div>
+                <img src="./svg/typeRepair.svg">
+            </div>
             <div class="container4">
-                <div class="container4_1 img4-1">
+                <div class="container4_1">
+                    <img class="type-repair-image" src="./images/image_3_1.png" alt="repair-image">
                     <div class="content-block4">
                         <p>Redecorating</p>
                         <ul>
@@ -162,7 +173,8 @@
                     </div>
                     <button class="button btn-block4">from 900 rub / m2</button>
                 </div>
-                <div class="container4_1 img4-2">
+                <div class="container4_1">
+                    <img class="type-repair-image" src="./images/image_3_2.png" alt="repair-image">
                     <div class="content-block4">
                         <p>Overhaul</p>
                         <ul>
@@ -177,7 +189,8 @@
                     </div>
                     <button class="button btn-block4">from 900 rub / m2</button>
                 </div>
-                <div class="container4_1 img4-3">
+                <div class="container4_1">
+                    <img class="type-repair-image" src="./images/image_3_3.png" alt="repair-image">
                     <div class="content-block4">
                         <p>Designer Repair</p>
                         <ul>
@@ -269,8 +282,8 @@
                 </div>
 
                 <div class="block6-image-left">
-                    <img src="./images/image_6_1.jpg" alt="image">
-                    <img src="./images/image_6_2.jpg" alt="image">
+                    <img class="block6-image-first" alt="image">
+                    <img class="block6-image-delete" src="./images/image_6_2.jpg" alt="image">
                 </div>
 
                 <div class="block6-image-rigth">
@@ -383,7 +396,7 @@
         </section>
 
         <footer>
-            <div class="container container-footer">
+            <div class="container-header-footer container-footer">
                 <div class="logo">
                     IC "Repair Design Project"
                 </div>
@@ -398,7 +411,7 @@
                     </ul>
                 </nav>
     
-                <div class="header-navigation-item number"><a href="#" class="header-navigation-link number-link">+7 (928) 768-32-39</a></div>
+                <div class="header-navigation-item number"><a href="tel:8(928)768-32-39" class="header-navigation-link number-link">+7 (928) 768-32-39</a></div>
                 <button class="button button-footer">Request a call</button>
             </div>
         </footer>
